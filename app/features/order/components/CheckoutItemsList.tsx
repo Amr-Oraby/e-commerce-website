@@ -23,7 +23,7 @@ export default function CheckoutItemsList({ items }: CheckoutItemsListProps) {
   return (
     <div
       dir="rtl"
-      className="w-full  min-w-150 p-6 border rounded-2xl border-gray-200 bg-white font-sans mx-auto"
+      className="w-full max-w-2xl p-6 border rounded-2xl border-gray-200 bg-white font-sans mx-auto"
     >
       <div className="flex items-center gap-2 mb-6">
         <h2 className="text-xl font-bold text-gray-900">المنتجات</h2>
