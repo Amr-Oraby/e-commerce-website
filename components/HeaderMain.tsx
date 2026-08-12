@@ -62,7 +62,7 @@ function HeaderMain({ categories }: { categories: Category[] }) {
             height={88}
             src="/images/logo.png"
             alt="logo"
-            className="w-22  "
+            className="w-16 md:w-22"
           />
         </Link>
 

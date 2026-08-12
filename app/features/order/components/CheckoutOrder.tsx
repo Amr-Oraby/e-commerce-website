@@ -39,6 +39,7 @@ export default function CheckoutOrder({
   function handleCheck() {
 
     if (selectedBranchId === null && selectedAddressId === null) {
+      alert("الرجاء اختيار عنوان التوصيل أو الفرع لإتمام الطلب");
       return;
     }
 
