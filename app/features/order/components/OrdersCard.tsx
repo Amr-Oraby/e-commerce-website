@@ -111,9 +111,9 @@ export default function OrdersCard() {
           {filteredOrders.map((order: Order) => {
             // جلب روابط الصور من المنتجات داخل الطلب
             const images =
-              order.items
+              (order.items
                 ?.map((item) => item.product?.image?.url)
-                .filter(Boolean) || [];
+                .filter(Boolean) as string[]) || [];
 
             return (
               <div
