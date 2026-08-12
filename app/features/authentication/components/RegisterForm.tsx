@@ -113,13 +113,13 @@ export default function RegisterForm() {
             value={password}
             onChange={(e) => setPassword(e.target.value)}
             placeholder={t("passwordPlaceholder")}
-            className="flex-1 py-3 text-sm text-gray-700 bg-transparent outline-none placeholder:text-gray-400"
+            className="flex-1 min-w-0 py-3 text-sm text-gray-700 bg-transparent outline-none placeholder:text-gray-400"
             required
           />
           <button
             type="button"
             onClick={() => setShowPassword(!showPassword)}
-            className="text-gray-400 hover:text-gray-600 focus:outline-none p-1"
+            className="text-gray-400 hover:text-gray-600 focus:outline-none p-1 shrink-0"
           >
             {showPassword ? <Eye size={18} /> : <EyeOff size={18} />}
           </button>
@@ -139,13 +139,13 @@ export default function RegisterForm() {
             value={confirmPassword}
             onChange={(e) => setConfirmPassword(e.target.value)}
             placeholder={t("confirmPasswordPlaceholder")}
-            className="flex-1 py-3 text-sm text-gray-700 bg-transparent outline-none placeholder:text-gray-400"
+            className="flex-1 min-w-0 py-3 text-sm text-gray-700 bg-transparent outline-none placeholder:text-gray-400"
             required
           />
           <button
             type="button"
             onClick={() => setShowConfirmPassword(!showConfirmPassword)}
-            className="text-gray-400 hover:text-gray-600 focus:outline-none p-1"
+            className="text-gray-400 hover:text-gray-600 focus:outline-none p-1 shrink-0"
           >
             {showConfirmPassword ? <Eye size={18} /> : <EyeOff size={18} />}
           </button>
