@@ -20,8 +20,8 @@ function ProductCard({ product }: { product?: Product }) {
   // Fallback to regular price if price_after_discount is missing
   const currentPrice = product?.price_after_discount ?? product?.price ?? 0;
   const originalPrice = product?.price ?? 0;
-  const imageUrl =
-    typeof product.image === "string" ? product.image : product?.image?.url;
+  const rawImageUrl = typeof product.image === "string" ? product.image : product?.image?.url;
+  const imageUrl = rawImageUrl?.replace(/(https?:\/\/[^\/]+)\/\/+/, "$1/");
 
   return (
     <div

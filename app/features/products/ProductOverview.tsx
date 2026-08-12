@@ -14,7 +14,8 @@ export default function ProductOverview({ product }: { product: Product }) {
 
   // Using static thumbnails array since the Product interface provides a single Image object
   const thumbnails = [1, 2, 3, 4, 5];
-  const url = typeof product?.image === 'string' ? product.image : product?.image?.url || null;
+  const rawUrl = typeof product?.image === 'string' ? product.image : product?.image?.url || null;
+  const url = rawUrl?.replace(/(https?:\/\/[^\/]+)\/\/+/, "$1/");
   const imageUrl = url || "/images/product.png";
   const displayPrice = product?.price_after_discount ?? product?.price ?? 0;
 
