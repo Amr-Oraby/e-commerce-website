@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline' https://cdn.jsdelivr.net; style-src 'unsafe-inline';">
+    <title>SSH Traffic Monitor</title>
+    <link rel="stylesheet" href="trafficGraph.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>SSH Traffic Monitor</h1>
+
+        <div class="stats">
+            <div class="stat-card">
+                <div class="stat-label">Upload Speed</div>
+                <div class="stat-value" id="uploadSpeed">0 B/s</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Download Speed</div>
+                <div class="stat-value" id="downloadSpeed">0 B/s</div>
+            </div>
+        </div>
+
+        <h2>Bandwidth Usage</h2>
+        <div class="chart-container">
+            <canvas id="bandwidthChart"></canvas>
+        </div>
+    </div>
+    <script src="trafficGraph.js"></script>
+</body>
+</html>

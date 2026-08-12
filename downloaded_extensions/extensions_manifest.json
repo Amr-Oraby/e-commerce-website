@@ -1,0 +1,234 @@
+[
+  {
+    "id": "mrmlnc.vscode-duplicate",
+    "version": "1.2.1",
+    "file": "mrmlnc.vscode-duplicate-1.2.1.vsix",
+    "sizeBytes": 97334,
+    "status": "Downloaded VSIX",
+    "method": "Marketplace VSIX (Cached)"
+  },
+  {
+    "id": "bracketpaircolordlw.bracket-pair-color-dlw",
+    "version": "0.0.6",
+    "file": "bracketpaircolordlw.bracket-pair-color-dlw-0.0.6.vsix",
+    "sizeBytes": 12460,
+    "status": "Downloaded VSIX",
+    "method": "Marketplace VSIX (Cached)"
+  },
+  {
+    "id": "oderwat.indent-rainbow",
+    "version": "8.3.1",
+    "file": "oderwat.indent-rainbow-8.3.1.vsix",
+    "sizeBytes": 3268062,
+    "status": "Downloaded VSIX",
+    "method": "Marketplace VSIX (Cached)"
+  },
+  {
+    "id": "christian-kohler.path-intellisense",
+    "version": "2.10.0",
+    "file": "christian-kohler.path-intellisense-2.10.0.vsix",
+    "sizeBytes": 130151,
+    "status": "Downloaded VSIX",
+    "method": "Marketplace VSIX (Cached)"
+  },
+  {
+    "id": "azemoh.one-monokai",
+    "version": "0.5.2",
+    "file": "azemoh.one-monokai-0.5.2.vsix",
+    "sizeBytes": 347765,
+    "status": "Downloaded VSIX",
+    "method": "Marketplace VSIX (Cached)"
+  },
+  {
+    "id": "formulahendry.auto-rename-tag",
+    "version": "0.1.10",
+    "file": "formulahendry.auto-rename-tag-0.1.10.vsix",
+    "sizeBytes": 677529,
+    "status": "Downloaded VSIX",
+    "method": "Marketplace VSIX (Cached)"
+  },
+  {
+    "id": "styled-components.vscode-styled-components",
+    "version": "1.7.8",
+    "file": "styled-components.vscode-styled-components-1.7.8.vsix",
+    "sizeBytes": 4115236,
+    "status": "Downloaded VSIX",
+    "method": "Marketplace VSIX (Cached)"
+  },
+  {
+    "id": "ritwickdey.liveserver",
+    "version": "5.7.10",
+    "file": "ritwickdey.liveserver-5.7.10.vsix",
+    "sizeBytes": 5545669,
+    "status": "Downloaded VSIX",
+    "method": "Marketplace VSIX (Cached)"
+  },
+  {
+    "id": "ms-python.python",
+    "version": "2026.4.0",
+    "file": "ms-python.python-2026.4.0.vsix",
+    "sizeBytes": 7798784,
+    "status": "Downloaded VSIX",
+    "method": "Marketplace VSIX (Cached)"
+  },
+  {
+    "id": "esbenp.prettier-vscode",
+    "version": "12.4.0",
+    "file": "esbenp.prettier-vscode-12.4.0.vsix",
+    "sizeBytes": 3643663,
+    "status": "Downloaded VSIX",
+    "method": "Marketplace VSIX (Cached)"
+  },
+  {
+    "id": "editorconfig.editorconfig",
+    "version": "0.18.2",
+    "file": "editorconfig.editorconfig-0.18.2.vsix",
+    "sizeBytes": 250184,
+    "status": "Downloaded VSIX",
+    "method": "Marketplace VSIX (Cached)"
+  },
+  {
+    "id": "ms-python.debugpy",
+    "version": "2026.6.0",
+    "file": "ms-python.debugpy-2026.6.0.vsix",
+    "sizeBytes": 8107886,
+    "status": "Downloaded VSIX",
+    "method": "Marketplace VSIX (Cached)"
+  },
+  {
+    "id": "ms-python.vscode-python-envs",
+    "version": "1.36.0",
+    "file": "ms-python.vscode-python-envs-1.36.0.vsix",
+    "sizeBytes": 4142946,
+    "status": "Downloaded VSIX",
+    "method": "Marketplace VSIX (Cached)"
+  },
+  {
+    "id": "naumovs.color-highlight",
+    "version": "2.8.0",
+    "file": "naumovs.color-highlight-2.8.0.vsix",
+    "sizeBytes": 455630,
+    "status": "Downloaded VSIX",
+    "method": "Marketplace VSIX (Cached)"
+  },
+  {
+    "id": "wallabyjs.quokka-vscode",
+    "version": "1.0.766",
+    "file": "wallabyjs.quokka-vscode-1.0.766.vsix",
+    "sizeBytes": 24090639,
+    "status": "Downloaded VSIX",
+    "method": "Marketplace VSIX (Cached)"
+  },
+  {
+    "id": "github.vscode-github-actions",
+    "version": "0.32.3",
+    "file": "github.vscode-github-actions-0.32.3.vsix",
+    "sizeBytes": 2620843,
+    "status": "Downloaded VSIX",
+    "method": "Marketplace VSIX (Cached)"
+  },
+  {
+    "id": "dbaeumer.vscode-eslint",
+    "version": "3.0.34",
+    "file": "dbaeumer.vscode-eslint-3.0.34.vsix",
+    "sizeBytes": 267124,
+    "status": "Downloaded VSIX",
+    "method": "Marketplace VSIX (Cached)"
+  },
+  {
+    "id": "bradlc.vscode-tailwindcss",
+    "version": "0.16.0",
+    "file": "bradlc.vscode-tailwindcss-0.16.0.vsix",
+    "sizeBytes": 1762057,
+    "status": "Downloaded VSIX",
+    "method": "Marketplace VSIX (Cached)"
+  },
+  {
+    "id": "pkief.material-icon-theme",
+    "version": "5.37.0",
+    "file": "pkief.material-icon-theme-5.37.0.vsix",
+    "sizeBytes": 889100,
+    "status": "Downloaded VSIX",
+    "method": "Marketplace VSIX (Cached)"
+  },
+  {
+    "id": "lukaserat.npm-scripts",
+    "version": "1.0.0",
+    "file": "lukaserat.npm-scripts-1.0.0.vsix",
+    "sizeBytes": 4156723,
+    "status": "Downloaded VSIX",
+    "method": "Marketplace VSIX (Cached)"
+  },
+  {
+    "id": "vitest.explorer",
+    "version": "1.50.8",
+    "file": "vitest.explorer-1.50.8.vsix",
+    "sizeBytes": 1105263,
+    "status": "Downloaded VSIX",
+    "method": "Marketplace VSIX (Cached)"
+  },
+  {
+    "id": "ms-python.vscode-pylance",
+    "version": "2026.3.1",
+    "file": "ms-python.vscode-pylance-2026.3.1.vsix",
+    "sizeBytes": 29646770,
+    "status": "Downloaded VSIX",
+    "method": "Marketplace VSIX (Cached)"
+  },
+  {
+    "id": "anthropic.claude-code",
+    "version": "2.1.226",
+    "file": "anthropic.claude-code-2.1.226.vsix",
+    "sizeBytes": 94906064,
+    "status": "Downloaded VSIX",
+    "method": "Marketplace VSIX (Cached)"
+  },
+  {
+    "id": "golang.go",
+    "version": "0.56.0",
+    "file": "golang.go-0.56.0.vsix",
+    "sizeBytes": 621478,
+    "status": "Downloaded VSIX",
+    "method": "Marketplace VSIX (Cached)"
+  },
+  {
+    "id": "shopify.ruby-lsp",
+    "version": "0.10.6",
+    "file": "shopify.ruby-lsp-0.10.6.vsix",
+    "sizeBytes": 214404,
+    "status": "Downloaded VSIX",
+    "method": "Marketplace VSIX (Cached)"
+  },
+  {
+    "id": "meta.pyrefly",
+    "version": "1.2.0",
+    "file": "meta.pyrefly-1.2.0",
+    "sizeBytes": 31744070,
+    "status": "Copied Local Folder",
+    "method": "Local Folder"
+  },
+  {
+    "id": "ms-python.vscode-python-envs",
+    "version": "1.20.1",
+    "file": "ms-python.vscode-python-envs-1.20.1.vsix",
+    "sizeBytes": 6250083,
+    "status": "Downloaded VSIX",
+    "method": "Marketplace VSIX (Cached)"
+  },
+  {
+    "id": "llvm-vs-code-extensions.vscode-clangd",
+    "version": "0.6.0",
+    "file": "llvm-vs-code-extensions.vscode-clangd-0.6.0.vsix",
+    "sizeBytes": 638869,
+    "status": "Downloaded VSIX",
+    "method": "Marketplace VSIX (Cached)"
+  },
+  {
+    "id": "anysphere.remote-ssh",
+    "version": "1.1.14",
+    "file": "anysphere.remote-ssh-1.1.14",
+    "sizeBytes": 1260334,
+    "status": "Copied Local Folder",
+    "method": "Local Folder"
+  }
+]
