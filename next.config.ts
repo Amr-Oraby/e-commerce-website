@@ -9,7 +9,10 @@ const nextConfig: NextConfig = {
     deviceSizes: [640, 750, 828, 1080, 1200, 1920],
     imageSizes: [16, 32, 48, 64, 96, 128, 256],
     remotePatterns: [
-      new URL("https://bayt-aljamal-dev.saber.aait-d.com/**") as any,
+      {
+        protocol: 'https',
+        hostname: 'bayt-aljamal-dev.saber.aait-d.com',
+      },
       {
         protocol: 'https',
         hostname: 'flagcdn.com',
