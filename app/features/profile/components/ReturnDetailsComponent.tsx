@@ -39,7 +39,9 @@ export default function ReturnDetailsComponent({ returnId }: { returnId: string 
     })
     : "";
 
-  const displayReason = details.reason === "changed_mind" ? "تغيير الرأي" : details.reason;
+  const displayReason = typeof details.reason === "string"
+    ? (details.reason === "changed_mind" ? "تغيير الرأي" : details.reason)
+    : (details.reason?.name || details.reason?.other_reason || "");
 
   const returnAddress = details.address
     ? `${details.address.city?.name || ""}, ${details.address.country?.name || ""} - ${details.address.district?.name || ""}, ${details.address.building_name || ""}`

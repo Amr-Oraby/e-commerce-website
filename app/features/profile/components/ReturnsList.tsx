@@ -118,7 +118,9 @@ export default function ReturnsList({ activeTab }: ReturnsListProps) {
                       {t("orderReason")}
                     </span>
                     <span className="text-gray-500 text-xs sm:text-xs lg:text-sm">
-                      {item.reason === "changed_mind" ? t("changedMind") : item.reason}
+                      {typeof item.reason === 'string'
+                        ? (item.reason === "changed_mind" ? t("changedMind") : item.reason)
+                        : (item.reason?.name || item.reason?.other_reason || "")}
                     </span>
                   </div>
 

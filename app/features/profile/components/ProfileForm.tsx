@@ -20,6 +20,8 @@ export default function ProfileForm() {
   const { data: profileData } = useProfile();
   const { user } = useUser() as unknown as { user: ApiResponse<User> };
   const fileInputRef = useRef<HTMLInputElement>(null);
+  const [selectedImage, setSelectedImage] = useState<File | null>(null);
+  const [imagePreview, setImagePreview] = useState<string | null>(null);
 
   const [fullName, setFullName] = useState("");
   const [phone, setPhone] = useState("");
@@ -27,10 +29,8 @@ export default function ProfileForm() {
   const [password, setPassword] = useState("12345");
   const [showPassword, setShowPassword] = useState(false);
   const [successMsg, setSuccessMsg] = useState("");
-  const [errorMsg, setErrorMsg] = useState("");
-  const [selectedImage, setSelectedImage] = useState<File | null>(null);
-  const [imagePreview, setImagePreview] = useState<string | null>(null);
   const [isPhoneDialogOpen, setIsPhoneDialogOpen] = useState(false);
+  const [errorMsg, setErrorMsg] = useState("");
 
   useEffect(() => {
     if (profileData?.data) {

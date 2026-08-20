@@ -73,7 +73,7 @@ export interface ReturnRequest {
     value: string;
     label: string;
   };
-  reason: string;
+  reason: string | { id?: number; name?: string; other_reason?: string; type?: string; type_label?: string; };
   admin_notes?: string | null;
   summary?: {
     quantity: number;

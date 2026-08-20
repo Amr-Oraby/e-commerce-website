@@ -3,7 +3,7 @@ import { updateProfile } from "../profileApi";
 
 export function useUpdateProfile() {
   const queryClient = useQueryClient();
-  
+
   const { mutate, isPending, data, error } = useMutation({
     mutationFn: updateProfile,
     onSuccess: () => {
